@@ -1,0 +1,92 @@
+@import url(font.css);
+
+.main-list{
+    display: flex;
+    align-items: center;
+    background: rgb(41, 41, 41);
+    padding-left: 21px;
+    margin-top: 48px;
+    height: 65px;
+}
+
+.main-list__link{
+    margin-left: 31px;
+    color: rgb(255, 255, 255);
+font-family: 'RR';
+font-size: 18px;
+line-height: 24px;
+}
+
+.main-box{
+    background:  rgb(57, 54, 54);
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+padding: 15px;
+margin-bottom: 50px;
+
+}
+
+.main-box__item{
+   background: rgb(12, 12, 12); 
+border: 1px solid rgb(255, 255, 255);
+border-radius: 4px;
+margin-top: 30px;
+width: 23.7%;
+padding: 15px;
+}
+
+
+.main-item__img{
+    position: relative;
+}
+
+.main-item__image{
+    width: 100%;
+}
+
+.main-item__icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    background: rgba(105, 207, 23, 0.9);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 500ms;
+}
+
+.main-item__icon:hover{
+    opacity: 1;
+}
+
+.main-item__title{
+    color: rgb(255, 255, 255);
+    font-family: 'RR';
+    font-size: 19px;
+    line-height: 25px;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+
+.main-item__text{
+    color: rgb(255, 255, 255);
+    font-family: 'RR';
+    font-size: 19px;
+    line-height: 25px;
+}
+
+.main-map__title{
+    color: rgb(105, 207, 23);
+font-family: 'RB';
+font-size: 50px;
+line-height: 40px;
+    background: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}

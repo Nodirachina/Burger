@@ -1,0 +1,45 @@
+@import url(font.css);
+
+
+
+.burger-main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.burger-main__box{
+    margin-top: 30px;
+    margin-bottom: 30px;
+width: 1110px;
+height: 400px;
+    background: url(../Image/photo_cropped\ 1.jpeg)no-repeat center /cover;
+}
+
+.burger-main__text{
+    color: rgba(105, 207, 23, 0.7);
+font-family: 'RB';
+font-size: 55px;
+line-height: 65px;
+text-transform: uppercase;
+padding: 168px 413px;
+}
+
+.burger-main__title{
+    color: rgb(255, 255, 255);
+font-family: 'RB';
+font-size: 18px;
+line-height: 25px;
+}
+
+.main-map__title{
+    color: rgb(105, 207, 23);
+font-family: 'RB';
+font-size: 50px;
+line-height: 40px;
+    background: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}

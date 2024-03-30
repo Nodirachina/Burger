@@ -1,0 +1,84 @@
+@import url(font.css);
+
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header-cotegory{
+   height: 700px;
+    background: url(../Image/food-burger-wallpaper-preview\ 1.jpeg)no-repeat center /cover;
+}
+
+.header-context{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+height: 100%;
+}
+
+.header-context__text{
+    color: rgb(105, 207, 23);
+font-family: 'RB';
+font-size: 72px;
+line-height: 85px;
+}
+
+.header-context__second{
+    color: rgb(105, 207, 23);
+font-family: 'RR';
+font-size: 36px;
+line-height: 17px;
+margin-top: 18px;
+}
+
+.header-context__title{
+    color: rgb(255, 255, 255);
+font-family: 'RR';
+font-size: 18px;
+line-height: 24px;
+margin-top: 18px;
+}
+
+.header-link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.header-link__price{
+    color: rgb(255, 255, 255);
+font-family: Raleway;
+font-size: 50px;
+font-weight: 200;
+line-height: 25px;
+backdrop-filter: blur(18px);
+background: rgba(105, 207, 23, 0.5);
+padding-left: 76px;
+padding-right: 76px;
+padding-top: 30px;
+padding-bottom: 30px;
+display: block;
+text-align: center;
+    transition: all 500ms;
+}
+
+.header-link__detail{
+    color: rgb(255, 255, 255);
+font-family: 'RR';
+font-size: 18px;
+line-height: 21px;
+border-radius: 6px;
+background: linear-gradient(90.00deg, rgb(105, 207, 23),rgb(65, 125, 17) 100%);
+display: block;
+text-align: center;
+padding-top: 15px;
+padding-bottom: 15px;
+padding-left: 70px;
+padding-right: 70px;
+height: 51px;
+transition: all 500ms;
+}

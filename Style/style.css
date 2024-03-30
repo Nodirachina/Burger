@@ -1,0 +1,104 @@
+@import url(font.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+ 
+body{
+    background: black;
+}
+
+
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.pre-nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.pre-nav__build{
+    display: flex;
+}
+
+.pre-nav__icon{
+    color: white;
+    margin-right: 5px;
+}
+
+.pre-nav__text{
+color: rgb(255, 255, 255);
+font-family: 'RR';
+font-size: 16px;
+line-height: 19px;
+}
+
+.pre-nav__list{
+display: flex;
+}
+
+.pre-nav__link{
+    margin-left: 20px;
+color: rgb(255, 255, 255);
+font-family: 'RR';
+font-size: 16px;
+line-height: 19px;
+}
+
+.nav{
+display: flex;
+justify-content: space-between;
+margin-top: 25px;
+}
+
+.nav-text{
+margin-top: 6px;
+color: rgb(255, 255, 255);
+font-family: 'RB';
+font-size: 36px;
+line-height: 30px;
+border-radius: 4px;
+padding-top: 12px;
+padding-bottom: 11px;
+padding-left: 18px;
+padding-right: 18px;
+display: block;
+text-align: center;
+transition: all 500ms;
+}
+
+.nav-text:hover{
+    background: rgba(10, 148, 24, 0.75); 
+}
+
+.nav-list{
+    display: flex;
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+
+.nav-link{
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    color: rgb(255, 255, 255);
+font-family: 'RR';
+font-size: 18px;
+line-height: 21px;
+transition: all 500ms;
+}
+
+.nav-link:hover{
+    background: rgba(105, 207, 23, 0.75);
+}
